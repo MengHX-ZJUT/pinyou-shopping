@@ -1,0 +1,219 @@
+/* 公共样式 */
+
+/* 版心样式 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 品优购红 */
+.pinyou_red {
+    color: #c81623;;
+}
+
+/* 左浮 */
+.fl {
+    float: left;
+}
+
+/* 右浮 */
+.fr {
+    float: right;
+}
+
+/* 
+ * shortcut模块 
+ */
+.shortcut {
+    height: 30px;
+    background-color: #f1f1f1;
+    line-height: 30px;  /* 字体垂体居中 */
+}
+
+/* shortcut左侧 */
+.shortcut .fl ul li {
+    float: left;
+}
+
+.shortcut .fl ul li {
+    margin-right: 5px;
+}
+
+.shortcut .fl ul li a {
+    margin-right: 10px;
+}
+
+/* shortcut右侧 */
+.shortcut .fr ul li {
+    float: left;
+}
+
+/* 竖线 */
+.shortcut .fr ul li:nth-of-type(2n) {
+    height: 12px;
+    width: 1px;
+    background-color: #666;
+    margin: 9px 10px;
+}
+
+.shortcut .fr ul li svg {
+    margin-left: 5px;
+}
+
+/* 
+ * header模块 
+ */
+.header {
+    position: relative;
+    height: 105px;
+}
+
+ /* logo模块 */
+.header .logo {
+    position: absolute;
+    top: 25px;
+    /* 大小和图片相同 */
+    width: 175px;
+    height: 56px;
+}
+
+.header .logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+/* search模块 */
+.header .search {
+    position: absolute;
+    top: 25px;
+    /* 水平居中 */
+    left: 50%;
+    margin-left: -270px;
+    width: 540px;
+    height: 40px;
+    border: 2px solid #b1191a;
+}
+
+.header .search input {
+    float: left;
+    height: 36px;
+    width: 456px;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.header .search button {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 36px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* hotword模块 */
+.header .hotwords {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -270px;
+    width: 540px;
+}
+
+.header .hotwords li {
+    float: left;
+    margin: 0 10px;
+}
+
+/* shopcar模块 */
+.header .shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.header .shopcar .shopcar_icon {
+    margin-right: 5px;
+}
+
+.header .shopcar .right_arrow {
+    margin-left: 10px;
+}
+
+.header .shopcar .count {
+    position: absolute;
+    top: -7px;
+    left: 95px;
+    padding: 0 3px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 8px 8px 8px 0;
+    background-color: #e60012;
+    color: #fff;
+}
+
+/*
+ * nav模块
+ */
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+/* dropdown模块 */
+.nav .dropdown {
+    height: 45px;
+    width: 215px;
+    background-color: #b1191a;
+}
+
+.nav .dropdown dt {
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav .dropdown dd {
+    height: 465px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #c81623;
+}
+
+.nav .dropdown dd li {
+    margin-left: 2px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+}
+
+.nav .dropdown dd li:hover {
+    background-color: #fff;
+}
+
+.nav .dropdown dd li:hover a {
+    color: #c81623;
+}
+
+.nav .dropdown dd li a {
+    padding-left: 12px;
+    
+    color: #fff;
+}
+
+.nav .dropdown dd li svg {
+    margin-top: 6px;
+    margin-right: 10px;
+}
