@@ -174,7 +174,7 @@
 /* dropdown模块 */
 .nav .dropdown {
     height: 45px;
-    width: 215px;
+    width: 210px;
     background-color: #b1191a;
 }
 
@@ -235,7 +235,6 @@
  * footer模块 
  */
 .footer {
-    margin-top: 700px;
     bottom: 0;
     height: 415px;
     background-color: #f5f5f5;

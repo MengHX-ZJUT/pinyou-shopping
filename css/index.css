@@ -1,0 +1,150 @@
+/*
+ * main模块 
+ */
+.main {
+    height: 465px;
+    margin-left: 220px;
+    padding-top: 10px;
+}
+
+/* focus模块 */
+.main .focus {
+    float: left;
+    height: 455px;
+    width: 720px;
+}
+
+/* newsflash模块 */
+.main .newsflash {
+    float: right;
+    height: 455px;
+    width: 251px;
+}
+
+/* news模块 */
+.main .newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+/* news_head模块 */
+.main .newsflash .news_head {
+    padding: 0 17px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.main .newsflash .news_head h3 {
+    float: left;
+}
+
+.main .newsflash .news_head a {
+    float: right;
+}
+
+.main .newsflash .news_head svg {
+    margin-top: 10px;
+}
+
+/* news_body模块 */
+.main .newsflash .news_body {
+    padding: 5px 17px;
+}
+
+.main .newsflash .news_body li {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* lifeservice模块 */
+.main .newsflash .lifeservice {
+    height: 210px;
+    border-left: 1px solid #e4e4e4;
+    /* background-color: orangered; */
+}
+
+.main .newsflash .lifeservice li {
+    float: left;
+    width: 62.5px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    padding-top: 12px;
+}
+.main .newsflash .lifeservice li em {
+    display: inline-block;
+    width: 30px;
+    height: 33px;
+    vertical-align: bottom;
+} 
+
+.main .newsflash .lifeservice .phone_icon {
+    background: url(../images/icons.png) no-repeat -14px -12px;
+}
+
+/* bargain模块 */
+.main .newsflash .bargain {
+    margin-top: 5px;
+    height: 75px;
+}
+
+/*
+ * recommend模块 
+ */
+.recommend {
+    height: 165px;
+    margin-top: 15px;
+}
+
+.recommend .recommend_head {
+    float: left;
+    width: 210px;
+    height: 100%;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recommend .recommend_head img{
+    margin: 25px 0 10px 0;
+}
+
+.recommend .recommend_head h3{
+    color: #fff;
+    font-size: 16px;
+}
+
+.recommend .recommend_body {
+    float: left;
+    width: 990px;
+    height: 100%;
+    /* background-color: #ebebeb; */
+    background-color: skyblue;
+}
+
+.recommend .recommend_body li {
+    position: relative;
+    float: left;
+    /* width: 245px;
+    height: 163px; */
+    /* overflow: hidden; */
+}
+
+.recommend .recommend_body img {
+    width: 247.5px;
+    height: 165px;
+} 
+
+.recommend .recommend_body li:nth-of-type(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    content: "";
+    width: 1px;
+    height: 143px;
+    background-color: #ddd;
+} 
