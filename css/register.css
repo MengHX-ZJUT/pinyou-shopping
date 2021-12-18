@@ -1,0 +1,176 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 
+ * header模块
+ */
+.header {
+    position: relative;
+    height: 112px;
+    border-bottom: 2px solid #b1191a;
+    margin-bottom: 30px;
+}
+
+.header img {
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 195px;
+    margin-top: -17px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #333;
+}
+
+/*
+ * register_area 
+ */
+.register_area {
+    height: 520px;
+    border: 1px solid #ccc;
+}
+
+/* register_head */
+.register_head {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-size: 14px;
+}
+
+.register_head .register_account {
+    font-size: 16px;
+    margin-left: 18px;
+    float: left;
+}
+
+.register_head .sign_up {
+    float: right;
+}
+
+.register_head a {
+    margin: 0 18px;
+    float: right;
+    color: #c81623;
+}
+
+/* register_form */
+.register_form {
+    width: 540px;
+    height: 400px;
+    margin: 50px auto 0;
+}
+
+.register_form li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.register_form label {
+    display: inline-block;
+    width: 88px;
+    height: 45px;
+    text-align: right;
+}
+
+.register_form input[type="number"],
+.register_form input[type="password"] {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.register_form img {
+    width: 15px;
+    height: 15px;
+}
+
+.register_form .error {
+    color: #c81623;
+}
+
+.register_form .success {
+    color: green;
+}
+
+.register_form .safe {
+    padding-left: 150px;
+}
+
+.register_form .safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.register_form .safe .weak {
+    background-color: #de1111;
+}
+
+.register_form .safe .middle {
+    background-color: #f79100;
+}
+
+.register_form .safe .strong {
+    background-color: #40b83f;
+}
+
+.register_form .agree {
+    margin-left: 90px;
+}
+
+.register_form .agree a {
+    color: #1ba1e6;
+}
+
+.register_form .btn {
+    margin: 30px 0 0 115px;
+}
+
+.register_form button {
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+/*
+ * footer 
+ */
+/* mod_copyright模块 */
+.footer .mod_copyright {
+    height: 120px;
+    padding-top: 20px;
+}
+
+.footer .mod_copyright .links {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer .mod_copyright .links li {
+    float: left;
+}
+
+.footer .mod_copyright li:nth-of-type(2n) {
+    height: 11px;
+    width: 1px;
+    background-color: #666;
+    margin: 3px 10px;
+}
+
+.footer .mod_copyright .copyright {
+    margin-top: 20px;
+    text-align: center;
+}
